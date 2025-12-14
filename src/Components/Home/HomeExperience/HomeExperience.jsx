@@ -4,7 +4,7 @@ import Buttons from "../../Buttons/Buttons";
 function HomeExperience() {
   return (
     <div className="">
-      <h1 className="text-[40px] text-[#030303] tracking-[-2px] leading-[110%] mt-[100px] mb-[60px]">
+      <h1 className="text-[39px] text-[#030303] mt-[100px] mb-[60px] font-[EB_Garamond]">
         Experience the warmth of Balmain's waterfront at Rose. Where the
         everyday is elevated to the extraordinary.
       </h1>

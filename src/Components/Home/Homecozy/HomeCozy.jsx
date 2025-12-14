@@ -5,16 +5,15 @@ import img from "../../Img/imagehero.png";
 function HomeCozy() {
   return (
     <>
-      <div className="flex items-start gap-[20px] mt-[34px]">
+      <div className="flex items-start gap-[20px] mt-[34px] w-[100%] ">
         <div className="w-[50%]">
           <p className="text-[40px] mb-[90px]">
             Cozy meets refined on Balmain's waterfront.
           </p>
           <Buttons btn1="Book on Resy" btn2="Dining Experiences" />
         </div>
-        <div>
-          {" "}
-          <hr className="w-[50%] mb-[30px]" />
+        <div className="w-[50%]">
+          <hr className="w-[100%] mb-[30px]" />
           <Schedule />
         </div>
       </div>

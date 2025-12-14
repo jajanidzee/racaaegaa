@@ -6,7 +6,7 @@ function HomeLimitedMenu() {
       <div className="flex items-center gap-[20px] mb-[60px] ">
         <div className="w-[580px]"></div>
 
-        <p className="text-[30px] w-[580px] italic text-[#030303] text-[#030303] ">
+        <p className="text-[30px] w-[580px] italic text-[#030303] text-[#030303] font-[EB_Garamond] ">
           Our limited menu, driven by seasonal bounty and classic bistro
           inspiration, offers a secret escape for food lovers. Discover
           sustainable, local flavors in an unexpectedly welcoming setting.

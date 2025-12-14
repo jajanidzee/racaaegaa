@@ -4,8 +4,8 @@ function AboutSecretEscape() {
   return (
     <>
       <div className="flex">
-        <div className="w-[580px] "></div>
-        <p className="text-[30px] italic text-[#030303] w-[580px] mb-[30px]">
+        <div className="w-[50%] "></div>
+        <p className="text-[30px] italic text-[#030303] w-[50%] mb-[30px] font-[EB_Garamond]">
           We’re a secret escape for food, building a vibrant, welcoming space
           for both community and culinary passion.
         </p>

@@ -8,13 +8,13 @@ function Routeing() {
         <Link to="/"> Rose </Link>
       </h1>
 
-      <ul className="text-[34px] flex gap-[4px]  font-[EB_Garamond] ">
-        <li>
+      <ul className="text-[34px] flex gap-[4px]  ">
+        <li className="font-[EB_Garamond] ">
           <Link to="/About"> About,</Link>
         </li>
 
-        <li>Experiences,</li>
-        <li>Email</li>
+        <li className="font-[EB_Garamond] ">Experiences,</li>
+        <li className="font-[EB_Garamond] ">Email</li>
       </ul>
     </div>
   );

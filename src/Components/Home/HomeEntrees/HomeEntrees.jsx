@@ -34,11 +34,16 @@ function HomeEntrees() {
   return (
     <>
       <div className="flex mb-[60px]">
-        <p className="text-[20px] font-bold text-[#030303] w-[50%]">Entrees</p>
-        <nav className="w-[50%]">
+        <p className="text-[20px] font-bold text-[#030303] w-[50%] font-[EB_Garamond]">
+          Entrees
+        </p>
+        <nav className="w-[50%] ">
           <ul className="flex flex-col gap-[30px]">
             {bill.map((text, index) => (
-              <li key={text} className="text-[20px] ">
+              <li
+                key={text}
+                className="text-[20px] flex font-[EB_Garamond] gap-[150px] "
+              >
                 <span key={text}>{text.title}</span>
                 <span key={text}>{text.money}</span>
               </li>

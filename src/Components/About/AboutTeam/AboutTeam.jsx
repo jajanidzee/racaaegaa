@@ -4,8 +4,8 @@ function AboutTeam() {
   return (
     <>
       <div className="flex">
-        <p className="w-[50%] text-[20px]">Team</p>
-        <p className="w-[50%] text-[20px] mb-[30px]">
+        <p className="w-[50%] text-[20px] font-[EB_Garamond]">Team</p>
+        <p className="w-[50%] text-[20px] mb-[30px] font-[EB_Garamond]">
           The Rose team reflects our local community – diverse, welcoming, and
           deeply connected. Equity and inclusion are not just ideals, but daily
           practices. Our chefs, driven by a passion for local and sustainable
