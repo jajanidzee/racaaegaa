@@ -3,7 +3,7 @@ import Routeing from "../Routeing/Routeing";
 
 function Header() {
   return (
-    <div className="flex">
+    <div className="flex justify-between">
       <Routeing />
     </div>
   );

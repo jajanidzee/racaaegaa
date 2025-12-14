@@ -32,8 +32,8 @@ const shcedule = [
 function Schedule() {
   return (
     <div className="flex justify-between">
-      <div className="w-[240px] text-[16px] italic text-[#222222] ">
-        <p>
+      <div className="w-[50%]  ">
+        <p className=" font-[EB_Garamond] text-[16px] italic text-[#222222]">
           24 Darling St <br /> Balmain
         </p>
       </div>
@@ -42,8 +42,7 @@ function Schedule() {
           <ul className="">
             {shcedule.map((Links, index) => (
               <li
-                className="Scheduleli text-[16px]/[30px] italic"
-                style={{ lineHeight: "35px" }}
+                className="Scheduleli text-[16px]/[30px] italic  font-[EB_Garamond]"
                 key={Links}
               >
                 {Links.day} {Links.time}
