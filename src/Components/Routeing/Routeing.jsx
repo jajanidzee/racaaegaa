@@ -3,20 +3,22 @@ import { Link } from "react-router-dom";
 
 function Routeing() {
   return (
-    <div className=" w-[100%] justify-between text-center md:flex">
-      <h1 className="Rose text-[150px] font-[East_Sea_Dokdo] ">
+    <div className=" w-[100%] justify-between flex">
+      <h1 className="Rose text-[150px] font-[East_Sea_Dokdo] hover:text-[200px] hover:text-red-500 ">
         <Link to="/"> Rose </Link>
       </h1>
 
-      <ul className="text-[34px]  gap-[4px] text-center flex items-center  ">
-        <li className="font-[EB_Garamond] ">
+      <ul className="text-[34px]  gap-[4px]  flex   ">
+        <li className="inline font-[EB_Garamond] hover:text-[50px]  cursor-pointer hover:text-red-500  ">
           <Link to="/About"> About,</Link>
         </li>
 
-        <li className="font-[EB_Garamond] ">
+        <li className="font-[EB_Garamond] hover:text-[50px] cursor-pointer hover:text-red-500  ">
           <Link to="/Experiences"> Experiences, </Link>
         </li>
-        <li className="font-[EB_Garamond] ">Email</li>
+        <li className="font-[EB_Garamond] hover:text-[50px] cursor-pointer hover:text-red-500  ">
+          Email
+        </li>
       </ul>
     </div>
   );
