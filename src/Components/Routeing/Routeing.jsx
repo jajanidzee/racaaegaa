@@ -8,7 +8,7 @@ function Routeing() {
         <Link to="/"> Rose </Link>
       </h1>
 
-      <ul className="text-[34px]  gap-[4px] flex text-center    ">
+      <ul className="text-[34px]  gap-[4px] text-center flex items-center  ">
         <li className="font-[EB_Garamond] ">
           <Link to="/About"> About,</Link>
         </li>
