@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Routeing() {
   return (
-    <div className="w-full justify-between flex-row md:flex text-center ">
+    <div className="w-full justify-between flex-row sm:flex text-center ">
       <h1 className="text-[150px] font-[East_Sea_Dokdo] hover:text-[200px] hover:text-red-500   ">
         <Link to="/" className="">
           {" "}
@@ -11,7 +11,7 @@ function Routeing() {
         </Link>
       </h1>
 
-      <ul className="text-[34px] gap-1 flex">
+      <ul className="text-[34px] gap-1 flex bg-red-500 justify-center">
         <li className="inline   ">
           <Link
             to="/About"
