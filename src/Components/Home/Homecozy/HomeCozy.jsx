@@ -2,26 +2,32 @@ import React from "react";
 import Buttons from "../../Buttons/Buttons";
 import Schedule from "../../Schedule/Schedule";
 import img from "../../Img/imagehero.png";
+import { motion } from "motion/react";
 function HomeCozy() {
   return (
     <>
-      <div className=" items-start gap-[20px] mt-[34px] flex ">
+      <div className=" items-start gap-5 mt-[34px] flex ">
         <div className="w-[50%] ">
-          <p className="text-[40px] mb-[90px]">
+          <motion.p
+            animate={{
+              scale: [0.5, 1.5, 1],
+              transition: { duration: 2 },
+            }}
+            className="text-[40px] mb-[90px]"
+          >
             Cozy meets refined on Balmain's waterfront.
-          </p>
-          <div className="pl-[25%] md:pl-[0px]">
-            {" "}
+          </motion.p>
+          <div className="">
             <Buttons btn1="Book on Resy" btn2="Dining Experiences" />
           </div>
         </div>
         <div className="w-[50%]">
-          <hr className="w-[100%] mb-[30px]" />
+          <hr className="w-full mb-[30px]" />
           <Schedule />
         </div>
       </div>
-      <img src={img} alt="" className="mt-[30px] mb-[40px]" />
-      <hr className="w-[100%] text-[#BA9787] mb-[30px]" />
+      <img src={img} alt="" className="mt-[30px] mb-10" />
+      <hr className="w-full text-[#BA9787] mb-[30px]" />
     </>
   );
 }
