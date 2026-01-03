@@ -1,5 +1,5 @@
 import React from "react";
-
+import { motion } from "motion/react";
 function Buttons({ btn1, btn2 }) {
   return (
     <div className=" flex gap-[10px]">
