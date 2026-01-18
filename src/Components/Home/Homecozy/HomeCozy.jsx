@@ -5,7 +5,7 @@ import img from "../../Img/imagehero.png";
 function HomeCozy() {
   return (
     <>
-      <div className=" items-start gap-[20px] mt-[34px] sm:flex flex-col   ">
+      <div className=" flex items-start gap-[20px] mt-[34px]  ">
         <div className="w-[50%]  ">
           <p className="text-[40px] mb-[90px]">
             Cozy meets refined on Balmain's waterfront.

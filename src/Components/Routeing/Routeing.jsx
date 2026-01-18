@@ -1,24 +1,44 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { motion } from "motion/react";
 function Routeing() {
   return (
-    <div className=" w-[100%] items-start justify-between sm:flex text-center ">
-      <h1 className="Rose text-[150px] font-[East_Sea_Dokdo] hover:text-[200px] hover:text-red-500 ">
+    <div className=" w-[100%] items-start justify-between flex-col sm:flex   ">
+      <motion.h1
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.95 }}
+        onHoverStart={() => console.log("hover started!")}
+        className="Rose text-[150px] font-[East_Sea_Dokdo]  "
+      >
         <Link to="/"> Rose </Link>
-      </h1>
+      </motion.h1>
 
-      <ul className="text-[34px]  gap-[4px]  items-center sm:flex ">
-        <li className="inline font-[EB_Garamond] hover:text-[50px]  cursor-pointer hover:text-red-500 ">
+      <ul className="text-[34px]  gap-[4px] flex">
+        <motion.li
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          onHoverStart={() => console.log("hover started!")}
+          className="inline font-[EB_Garamond] cursor-pointer "
+        >
           <Link to="/About"> About,</Link>
-        </li>
+        </motion.li>
 
-        <li className="font-[EB_Garamond] hover:text-[50px] cursor-pointer hover:text-red-500  ">
+        <motion.li
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          onHoverStart={() => console.log("hover started!")}
+          className="font-[EB_Garamond] cursor-pointer   "
+        >
           <Link to="/Experiences"> Experiences, </Link>
-        </li>
-        <li className="font-[EB_Garamond] hover:text-[50px] cursor-pointer hover:text-red-500  ">
+        </motion.li>
+        <motion.li
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          onHoverStart={() => console.log("hover started!")}
+          className="font-[EB_Garamond] cursor-pointer   "
+        >
           Email
-        </li>
+        </motion.li>
       </ul>
     </div>
   );
